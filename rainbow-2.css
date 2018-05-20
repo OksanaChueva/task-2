@@ -1,3 +1,71 @@
-.class{
-    
+.container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgb(12, 41, 48), rgb(88, 52, 5));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: -675px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.big-circle {
+    background-color: red;
+    width: 700px;
+    height: 700px;
+}
+
+.circle-orange {
+    background-color: orange;
+    width: 600px;
+    height: 600px;
+}
+
+.circle-yellow {
+    background-color: yellow;
+    width: 500px;
+    height: 500px;
+}
+
+.circle-green {
+    background-color: green;
+    width: 400px;
+    height: 400px;
+}
+
+.circle-blue {
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+}
+
+.circle-purple {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.circle-little {
+    background-color: rgb(187, 140, 187);
+    width: 100px;
+    height: 100px;
 }
