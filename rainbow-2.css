@@ -1,23 +1,13 @@
 .container {
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(rgb(12, 41, 48), rgb(88, 52, 5));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container-2 {
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    bottom: -675px;
+    bottom: -350px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    background: linear-gradient(rgb(12, 41, 48), rgb(88, 52, 5));
 }
 
 .center {

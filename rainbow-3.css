@@ -1,0 +1,28 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(rgb(35, 18, 112), rgb(187, 236, 9));
+}
+.circle {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 150px;
+    bottom: 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px violet,
+                0 0 0 20px purple,
+                0 0 0 30px blue,
+                0 0 0 40px green,
+                0 0 0 50px yellow,
+                0 0 0 50px orange,
+                0 0 0 60px red;  
+}
